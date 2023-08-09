@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230809161310">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo"><img src="img/logo.svg" alt="Logo" /></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" data-goto-header data-goto=".services" class="menu__link">Services</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" data-goto=".portfolio" class="menu__link">Portfolio</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" data-goto=".pricing" class="menu__link">Pricing</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions">
+					<a href="tel:3035550105" class="header__tel">(303) 555-0105</a>
+					<select class="header__langs" data-scroll>
+						<option value="1" class="header__lang" selected>EN</option>
+						<option value="2" class="header__lang">DE</option>
+						<option value="3" class="header__lang">CZ</option>
+					</select>
+					<button type="button" class="icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="page__main main-section">
+				<div class="main-section__content">
+					<div class="main-section__container">
+						<div class="main-section__body">
+							<h1 data-watch-threshold='1' data-watch class="main-section__title title">
+								We create your space better
+							</h1>
+							<div data-watch-threshold='1' data-watch class="main-section__text">
+								Our team creates comfortable spaces for our clients. We’ve
+								been designing your everyday life and work through great ideas
+								since 1999.
+							</div>
+							<button type="submit" class="main-section__button button ">
+								Get started
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="main-section__image">
+					<picture><source srcset="img/main/main.webp" type="image/webp"><img src="img/main/main.jpg" alt="Image" /></picture>
+				</div>
+			</section>
+			<section class="page__about about">
+				<div class="about__container">
+					<h2 data-watch-threshold='1' data-watch class="about__title title">About <span>Studio</span></h2>
+
+					<div class="about__text">
+						<p>
+							Interiart is an award-winning architecture and interior design
+							practice based in NYC. We work internationally on projects of
+							residential & commercial interior design that require a creative
+							approach. Our talented and experienced designers leverage their
+							knowledge and expertise to create unique and comfortable
+							interiors for you.
+						</p>
+						<p>
+							Our team knows that interior design can be stressful for the
+							client and we do our best to make it as easy as possible. We
+							listen to your needs, ideas, and inputs. And most importantly,
+							we make it exciting and enjoyable for our clients.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section data-watch="navigator" class="page__services services">
+				<div class="services__container">
+					<h2 data-watch-threshold='1' data-watch class="services__title title">Our <span>Services</span></h2>
+					<div class="services__items">
+						<article class="services__item item-service">
+							<div class="item-service__icon">
+								<img src="img/services/icon01.svg" alt="icon" />
+							</div>
+							<h4 class="item-service__title">INTERIOR DESIGN</h4>
+							<div class="item-service__text">
+								Interior design services offer a vast variety of solutions for
+								our clients’ homes and offices.
+							</div>
+						</article>
+						<article class="services__item item-service">
+							<div class="item-service__icon">
+								<img src="img/services/icon02.svg" alt="icon" />
+							</div>
+							<h4 class="item-service__title">DECORATIVE SERVICES</h4>
+							<div class="item-service__text">
+								Our professional decorators will be happy to help you change
+								your house’s inner look.
+							</div>
+						</article>
+						<article class="services__item item-service">
+							<div class="item-service__icon">
+								<img src="img/services/icon03.svg" alt="icon" />
+							</div>
+							<h4 class="item-service__title">SPACE PLANNING</h4>
+							<div class="item-service__text">
+								We create better interior experiences through our space
+								planning services.
+							</div>
+						</article>
+						<article class="services__item item-service">
+							<div class="item-service__icon">
+								<img src="img/services/icon04.svg" alt="icon" />
+							</div>
+							<h4 class="item-service__title">PROJECT MANAGEMENT</h4>
+							<div class="item-service__text">
+								We provide proper project management as it’s one of the main
+								success factors in interior design.
+							</div>
+						</article>
+					</div>
+					<button class="services__button button">Free consultation</button>
+				</div>
+			</section>
+			<section data-watch="navigator" class="page__portfolio portfolio">
+				<div class="portfolio__container">
+					<h2 data-watch-threshold='1' data-watch class="portfolio__title title">Our <span>Portfolio</span></h2>
+					<div data-tabs class="portfolio__tabs tabs-portfolio">
+						<div class="tabs-portfolio__wrap">
+							<nav data-tabs-titles class="tabs-portfolio__navigation">
+								<button type="button" class="tabs-portfolio__title _tab-active">
+									ALL
+								</button>
+								<button type="button" class="tabs-portfolio__title">
+									COMERCIAL
+								</button>
+								<button type="button" class="tabs-portfolio__title">
+									RESIDENTIAL
+								</button>
+								<button type="button" class="tabs-portfolio__title">
+									OFFICE
+								</button>
+								<button type="button" class="tabs-portfolio__title">
+									OTHER
+								</button>
+							</nav>
+
+							<a href="#" class="tabs-portfolio__link">VIEW MORE</a>
+						</div>
+						<div data-tabs-body class="tabs-portfolio__content">
+							<div class="tabs-portfolio__body">
+								<div class="tabs-portfolio__item item-tabs">
+									<div class="item-tabs__items">
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/01.webp" type="image/webp"><img src="img/portfolio/01.jpg" alt="Image" /></picture>
+										</a>
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/02.webp" type="image/webp"><img src="img/portfolio/02.jpg" alt="Image" /></picture>
+										</a>
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/03.webp" type="image/webp"><img src="img/portfolio/03.jpg" alt="Image" /></picture>
+										</a>
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/04.webp" type="image/webp"><img src="img/portfolio/04.jpg" alt="Image" /></picture>
+										</a>
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/05.webp" type="image/webp"><img src="img/portfolio/05.jpg" alt="Image" /></picture>
+										</a>
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/06.webp" type="image/webp"><img src="img/portfolio/06.jpg" alt="Image" /></picture>
+										</a>
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/07.webp" type="image/webp"><img src="img/portfolio/07.jpg" alt="Image" /></picture>
+										</a>
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="Image" /></picture>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="tabs-portfolio__body">
+								<div class="tabs-portfolio__item item-tabs">
+									<div class="item-tabs__items">
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/05.webp" type="image/webp"><img src="img/portfolio/05.jpg" alt="Image" /></picture>
+										</a>
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/06.webp" type="image/webp"><img src="img/portfolio/06.jpg" alt="Image" /></picture>
+										</a>
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/07.webp" type="image/webp"><img src="img/portfolio/07.jpg" alt="Image" /></picture>
+										</a>
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="Image" /></picture>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="tabs-portfolio__body">
+								<div class="tabs-portfolio__item item-tabs">
+									<div class="item-tabs__items">
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/01.webp" type="image/webp"><img src="img/portfolio/01.jpg" alt="Image" /></picture>
+										</a>
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/02.webp" type="image/webp"><img src="img/portfolio/02.jpg" alt="Image" /></picture>
+										</a>
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/06.webp" type="image/webp"><img src="img/portfolio/06.jpg" alt="Image" /></picture>
+										</a>
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/07.webp" type="image/webp"><img src="img/portfolio/07.jpg" alt="Image" /></picture>
+										</a>
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="Image" /></picture>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="tabs-portfolio__body">
+								<div class="tabs-portfolio__item item-tabs">
+									<div class="item-tabs__items">
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/01.webp" type="image/webp"><img src="img/portfolio/01.jpg" alt="Image" /></picture>
+										</a>
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/02.webp" type="image/webp"><img src="img/portfolio/02.jpg" alt="Image" /></picture>
+										</a>
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/03.webp" type="image/webp"><img src="img/portfolio/03.jpg" alt="Image" /></picture>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="tabs-portfolio__body">
+								<div class="tabs-portfolio__item item-tabs">
+									<div class="item-tabs__items">
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/02.webp" type="image/webp"><img src="img/portfolio/02.jpg" alt="Image" /></picture>
+										</a>
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/03.webp" type="image/webp"><img src="img/portfolio/03.jpg" alt="Image" /></picture>
+										</a>
+										<a class="item-tabs__item-ibg">
+											<picture><source srcset="img/portfolio/04.webp" type="image/webp"><img src="img/portfolio/04.jpg" alt="Image" /></picture>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch="navigator" class="page__pricing pricing">
+				<div class="pricing__container">
+					<h2 data-watch-threshold='1' data-watch class="pricing__title title">Our <span>Pricing</span></h2>
+					<div class="pricing__items items-pricing">
+						<article class="items-pricing__item">
+							<h4 class="items-pricing__title">Basic</h4>
+							<div class="items-pricing__label">
+								<div class="items-pricing__price">$25</div>
+								<div class="items-pricing__disc">per month</div>
+							</div>
+							<div class="items-pricing__text">
+								Interior Design Project Discussion Space Planning Online
+								Consultation
+							</div>
+							<button class="items-pricing__button button">buy now</button>
+						</article>
+						<article class="items-pricing__item">
+							<h4 class="items-pricing__title">Standart</h4>
+							<div class="items-pricing__label">
+								<div class="items-pricing__price">$50</div>
+								<div class="items-pricing__disc">per month</div>
+							</div>
+							<div class="items-pricing__text">
+								Color Analysis Space Planning Home Remodeling 3D Interior
+								Model
+							</div>
+							<button class="items-pricing__button button">buy now</button>
+						</article>
+						<article class="items-pricing__item">
+							<h4 class="items-pricing__title">Premium</h4>
+							<div class="items-pricing__label">
+								<div class="items-pricing__price">$80</div>
+								<div class="items-pricing__disc">per month</div>
+							</div>
+							<div class="items-pricing__text">
+								Concept Development Decoration Services Interior Architecture
+								Flooring Installation
+							</div>
+							<button class="items-pricing__button button">buy now</button>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="page__testimonials testimonials">
+				<div class="testimonials__container">
+					<h2 data-watch-threshold='1' data-watch class="testimonials__title title">
+						What <span>People Say</span>
+					</h2>
+					<!-- Оболочка слайдера -->
+					<div class="testimonials__slider swiper">
+						<!-- Двигающееся часть слайдера -->
+						<div class="testimonials__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="testimonials__slide swiper-slide">
+								<div class="item-testimonials">
+									<div class="item-testimonials__header">
+										<div class="item-testimonials__avatar-ibg">
+											<picture><source srcset="img/testimonials/01.webp" type="image/webp"><img src="img/testimonials/01.jpg" alt="" /></picture>
+										</div>
+										<div class="item-testimonials__info">
+											<h4 class="item-testimonials__title">Annette Black</h4>
+											<div class="item-testimonials__profession">
+												Group Associate
+											</div>
+											<div class="item-testimonials__socials">
+												<a href="" class="item-testimonials__social _icon-twiter"></a>
+												<a href="" class="item-testimonials__social _icon-linkedin"></a>
+												<a href="" class="item-testimonials__social _icon-facebook"></a>
+											</div>
+										</div>
+									</div>
+									<div class="item-testimonials__text">
+										Convallis non proin ac bibendum. At pharetra sed ultrices
+										semper. Lectus et ornare ultrices urna in. Id non
+										fringilla dignissim ac risus amet eget egestas vestibulum.
+										Aliquet etiam eget nulla nulla odio vel.
+									</div>
+								</div>
+							</div>
+							<div class="testimonials__slide swiper-slide">
+								<div class="item-testimonials">
+									<div class="item-testimonials__header">
+										<div class="item-testimonials__avatar-ibg">
+											<picture><source srcset="img/testimonials/02.webp" type="image/webp"><img src="img/testimonials/02.jpg" alt="" /></picture>
+										</div>
+										<div class="item-testimonials__info">
+											<h4 class="item-testimonials__title">
+												Marvin McKinney
+											</h4>
+											<div class="item-testimonials__profession">
+												Administrator
+											</div>
+											<div class="item-testimonials__socials">
+												<a href="" class="item-testimonials__social _icon-twiter"></a>
+												<a href="" class="item-testimonials__social _icon-linkedin"></a>
+												<a href="" class="item-testimonials__social _icon-facebook"></a>
+											</div>
+										</div>
+									</div>
+									<div class="item-testimonials__text">
+										Leo viverra vestibulum amet, scelerisque. Vitae, ultrices
+										mi rhoncus porttitor nulla sed sodales. Curabitur tellus
+										massa, lacinia non at. Lacus, hac fermentum, viverra
+										tortor, eget. Eget egestas eget ultrices vitae.
+									</div>
+								</div>
+							</div>
+							<div class="testimonials__slide swiper-slide">
+								<div class="item-testimonials">
+									<div class="item-testimonials__header">
+										<div class="item-testimonials__avatar-ibg">
+											<picture><source srcset="img/testimonials/01.webp" type="image/webp"><img src="img/testimonials/01.jpg" alt="" /></picture>
+										</div>
+										<div class="item-testimonials__info">
+											<h4 class="item-testimonials__title">Annette Black</h4>
+											<div class="item-testimonials__profession">
+												Group Associate
+											</div>
+											<div class="item-testimonials__socials">
+												<a href="" class="item-testimonials__social _icon-twiter"></a>
+												<a href="" class="item-testimonials__social _icon-linkedin"></a>
+												<a href="" class="item-testimonials__social _icon-facebook"></a>
+											</div>
+										</div>
+									</div>
+									<div class="item-testimonials__text">
+										Convallis non proin ac bibendum. At pharetra sed ultrices
+										semper. Lectus et ornare ultrices urna in. Id non
+										fringilla dignissim ac risus amet eget egestas vestibulum.
+										Aliquet etiam eget nulla nulla odio vel.
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Если нужна пагинация -->
+						<div class="swiper-pagination testimonials-dotts">
+						</div>
+					</div>
+			</section>
+			<section class="page__question question">
+				<div class="question__container">
+					<h2 data-watch-threshold='1' data-watch class="question__title title">Do you have <span>any question?</span></h2>
+					<button class="question__button button">order a call</button>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__main main-footer">
+					<div class="main-footer__info">
+						<a href="#" class="main-footer__logo">
+							<img src="img/logo.svg" alt="Logo" />
+						</a>
+						<div class="main-footer__text">
+							We are one of the leading interior design and remodeling studios
+							available for all of your residential and commercial interior design
+							needs.
+						</div>
+						<div class="main-footer__copy">
+							© 2023 id Studio. All Rights Reserved.
+						</div>
+					</div>
+					<div class="main-footer__nav nav-footer">
+						<h3 class="nav-footer__title">Navigation</h3>
+						<ul class="nav-footer__list">
+							<li class="nav-footer__item">
+								<a href="" class="nav-footer__link">About</a>
+							</li>
+							<li class="nav-footer__item">
+								<a href="" class="nav-footer__link">Services</a>
+							</li>
+							<li class="nav-footer__item">
+								<a href="" class="nav-footer__link"> Portfolio</a>
+							</li>
+							<li class="nav-footer__item">
+								<a href="" class="nav-footer__link"> Pricing </a>
+							</li>
+							<li class="nav-footer__item">
+								<a href="" class="nav-footer__link">Testemonials</a>
+							</li>
+						</ul>
+						<div class="nav-footer__socials social-footer">
+							<a href="" class="social-footer__item _icon-twiter"></a>
+							<a href="" class="social-footer__item _icon-linkedin"></a>
+
+							<a href="" class="social-footer__item _icon-facebook"></a>
+						</div>
+					</div>
+					<div class="main-footer__contacts contacts-footer">
+						<h3 class="contacts-footer__title-footer">CONTACTS</h3>
+						<div class="contacts-footer__item">
+							<h4 class="contacts-footer__title">ADRESS</h4>
+							<div class="contacts-footer__label">
+								3517 W. Gray St. Utica, Pennsylvania 57867
+							</div>
+						</div>
+						<div class="contacts-footer__item">
+							<h4 class="contacts-footer__title">EMAIL</h4>
+							<a href="mailto:michelle.rivera@idstudio.com" class="contacts-footer__label">michelle.rivera@idstudio.com</a>
+						</div>
+						<div class="contacts-footer__item">
+							<h4 class="contacts-footer__title">PHONES</h4>
+							<a href="tel:8085550111" class="contacts-footer__label">(808) 555-0111 or (303) 555-0105</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20230809161310"></script>
+</body>
+
+</html>
